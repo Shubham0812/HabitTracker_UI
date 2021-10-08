@@ -1,4 +1,7 @@
 # Goal & Habit Tracker | Hacktoberfest SwiftUI 🚀
+[![platform](https://img.shields.io/badge/platform-iOS-orange)](https://www.android.com)
+[![GitHub license](https://img.shields.io/badge/License-Apache2.0-blue.svg)](LICENSE)
+
 
 The aim of this app is so that users can track their habits and goals. This project is open source and allows all skill levels to contribute to Hacktoberfest - it also means you can earn some Swag (from stickers to t-shirts). The project is built using [Swift](https://swift.org/documentation/#the-swift-programming-language) and uses SwiftUI. 
 
