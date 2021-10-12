@@ -7,14 +7,13 @@
 
 import SwiftUI
 
-struct DefaultsManager: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct DefaultsManager {
+    
+    /// enum to hold keys for user defaults
+    enum DefaultManagerKeys: String {
+        case username = "username"
     }
-}
+    
+    // MARK:- functions
 
-struct DefaultsManager_Previews: PreviewProvider {
-    static var previews: some View {
-        DefaultsManager()
-    }
 }

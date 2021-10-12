@@ -7,14 +7,16 @@
 
 import SwiftUI
 
-struct AppModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class AppModel: ObservableObject {
+    
+    // MARK:- variables
+    
+    
+    // MARK:- inits
+    init() {
+        
     }
-}
-
-struct AppModel_Previews: PreviewProvider {
-    static var previews: some View {
-        AppModel()
-    }
+    
+    // MARK:- functions
+    
 }
