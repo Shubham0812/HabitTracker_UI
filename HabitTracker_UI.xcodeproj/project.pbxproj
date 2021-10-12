@@ -30,6 +30,11 @@
 		51CB752C27101A93007FC29B /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51CB752427101A92007FC29B /* Raleway-Regular.ttf */; };
 		51CB752D27101A93007FC29B /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51CB752527101A92007FC29B /* Raleway-Medium.ttf */; };
 		51CB752E27101A93007FC29B /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51CB752627101A92007FC29B /* Raleway-Light.ttf */; };
+		51CB7532271027E0007FC29B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB7531271027E0007FC29B /* AppModel.swift */; };
+		51CB753627102C35007FC29B /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753527102C35007FC29B /* DefaultsManager.swift */; };
+		51CB753827102C8C007FC29B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753727102C8C007FC29B /* User.swift */; };
+		51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753927102CF6007FC29B /* OnboardingView.swift */; };
+		51CB753E271048ED007FC29B /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753D271048ED007FC29B /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +54,7 @@
 		51CB75132710190B007FC29B /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		51CB75142710190B007FC29B /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		51CB75162710190B007FC29B /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		51CB751E27101970007FC29B /* HabitTracker-UI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HabitTracker-UI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		51CB751E27101970007FC29B /* HabitTracker-UI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HabitTracker-UI-Info.plist"; path = "HabitTracker_UI/Resources/HabitTracker-UI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		51CB751F27101A92007FC29B /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
 		51CB752027101A92007FC29B /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		51CB752127101A92007FC29B /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -58,6 +63,11 @@
 		51CB752427101A92007FC29B /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
 		51CB752527101A92007FC29B /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
 		51CB752627101A92007FC29B /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		51CB7531271027E0007FC29B /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		51CB753527102C35007FC29B /* DefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		51CB753727102C8C007FC29B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		51CB753927102CF6007FC29B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		51CB753D271048ED007FC29B /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateManager.swift; path = ../../../../../../Downloads/DateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +100,6 @@
 		51CB74E9270EDDD0007FC29B /* HabitTracker_UI */ = {
 			isa = PBXGroup;
 			children = (
-				51CB751E27101970007FC29B /* HabitTracker-UI-Info.plist */,
 				51CB74FC271016B4007FC29B /* Extensions */,
 				51CB74F827101697007FC29B /* Code */,
 				51CB750327101723007FC29B /* Utils */,
@@ -138,6 +147,7 @@
 		51CB74FB271016A8007FC29B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				51CB753727102C8C007FC29B /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -154,6 +164,7 @@
 		51CB74FD271016BB007FC29B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				51CB751E27101970007FC29B /* HabitTracker-UI-Info.plist */,
 				51CB750227101703007FC29B /* Fonts */,
 				51CB74EE270EDDD2007FC29B /* Assets.xcassets */,
 				51CB74F0270EDDD2007FC29B /* Preview Content */,
@@ -164,6 +175,10 @@
 		51CB74FE271016CE007FC29B /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				51CB753B27102CFA007FC29B /* Models */,
+				51CB7530271027D6007FC29B /* Support Shapes */,
+				51CB752F271027CC007FC29B /* Support Views */,
+				51CB753927102CF6007FC29B /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -171,6 +186,9 @@
 		51CB74FF271016D5007FC29B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				51CB753C27102CFF007FC29B /* Models */,
+				51CB75332710280B007FC29B /* Support Shapes */,
+				51CB753427102812007FC29B /* Support Views */,
 				51CB74EC270EDDD0007FC29B /* MainView.swift */,
 			);
 			path = Main;
@@ -179,6 +197,8 @@
 		51CB7501271016FA007FC29B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				51CB7531271027E0007FC29B /* AppModel.swift */,
+				51CB753527102C35007FC29B /* DefaultsManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -198,6 +218,7 @@
 				51CB750827101820007FC29B /* Constants.swift */,
 				51CB750A27101864007FC29B /* Colors.swift */,
 				51CB750C27101882007FC29B /* FontManager.swift */,
+				51CB753D271048ED007FC29B /* DateManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -228,6 +249,48 @@
 				51CB752027101A92007FC29B /* Raleway-SemiBoldItalic.ttf */,
 			);
 			path = Raleway;
+			sourceTree = "<group>";
+		};
+		51CB752F271027CC007FC29B /* Support Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Support Views";
+			sourceTree = "<group>";
+		};
+		51CB7530271027D6007FC29B /* Support Shapes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Support Shapes";
+			sourceTree = "<group>";
+		};
+		51CB75332710280B007FC29B /* Support Shapes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Support Shapes";
+			sourceTree = "<group>";
+		};
+		51CB753427102812007FC29B /* Support Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Support Views";
+			sourceTree = "<group>";
+		};
+		51CB753B27102CFA007FC29B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		51CB753C27102CFF007FC29B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,12 +378,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CB750927101820007FC29B /* Constants.swift in Sources */,
+				51CB753E271048ED007FC29B /* DateManager.swift in Sources */,
 				51CB750B27101864007FC29B /* Colors.swift in Sources */,
 				51CB750D27101882007FC29B /* FontManager.swift in Sources */,
+				51CB7532271027E0007FC29B /* AppModel.swift in Sources */,
 				51CB74ED270EDDD0007FC29B /* MainView.swift in Sources */,
 				51CB74EB270EDDD0007FC29B /* HabitTracker_UIApp.swift in Sources */,
 				51CB750527101788007FC29B /* FoundationExtensions.swift in Sources */,
+				51CB753627102C35007FC29B /* DefaultsManager.swift in Sources */,
+				51CB753827102C8C007FC29B /* User.swift in Sources */,
 				51CB7507271017A1007FC29B /* ColorExtensions.swift in Sources */,
+				51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +522,7 @@
 				DEVELOPMENT_TEAM = VXZ7XFH447;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HabitTracker-UI-Info.plist";
+				INFOPLIST_FILE = "HabitTracker_UI/Resources/HabitTracker-UI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -485,7 +553,7 @@
 				DEVELOPMENT_TEAM = VXZ7XFH447;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HabitTracker-UI-Info.plist";
+				INFOPLIST_FILE = "HabitTracker_UI/Resources/HabitTracker-UI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

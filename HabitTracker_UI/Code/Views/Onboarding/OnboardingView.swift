@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    
+    // MARK:- variables
+
+    
+    // MARK:- views
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            
+        }
     }
 }
 

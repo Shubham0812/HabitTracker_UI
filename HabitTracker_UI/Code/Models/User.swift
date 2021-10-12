@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+/// model for storing user data.
+struct User {
+    let name: String
+    let role: String
+    let profileImage: String
+}

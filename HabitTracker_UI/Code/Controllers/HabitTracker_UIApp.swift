@@ -16,7 +16,9 @@ struct HabitTracker_UIApp: App {
     // MARK:- views
     var body: some Scene {
         WindowGroup {
-            MainView()
+            ZStack {
+                MainView()
+            }
         }
     }
 }
@@ -25,7 +27,7 @@ struct HabitTracker_UIApp: App {
 class AppDelegate: NSObject, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        print("hola")
+        /// add anything needed for launch options here
         return true
     }
 }
