@@ -43,7 +43,8 @@ The aim of this app is so that users can track their habits and goals. This proj
 ## Contributing 🤖
 To start contributing, check out [CONTRIBUTING.md](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/contributing.md). Everyone is welcome to contribute to this project, if you’re new to programming you might want to check out issues labelled as `UI-Improvements` and `good-first-issue`. Before you assist with the development, please set up the project on your local machine, run it, and go through the application.
 
-Please explore the app and code files to ensure that you’re aware of the architecture and structure. 
+
+Please read the [Architecture.md](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/Architecture.md) to understand the flow and the strucuring of the app.
 
 
 
