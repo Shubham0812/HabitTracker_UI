@@ -35,6 +35,7 @@
 		51CB753827102C8C007FC29B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753727102C8C007FC29B /* User.swift */; };
 		51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753927102CF6007FC29B /* OnboardingView.swift */; };
 		51CB753E271048ED007FC29B /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753D271048ED007FC29B /* DateManager.swift */; };
+		91AE7B312719EDE300881B30 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE7B302719EDE200881B30 /* HapticsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		51CB753727102C8C007FC29B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		51CB753927102CF6007FC29B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		51CB753D271048ED007FC29B /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateManager.swift; path = ../../../../../../Downloads/DateManager.swift; sourceTree = "<group>"; };
+		91AE7B302719EDE200881B30 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 			children = (
 				51CB7531271027E0007FC29B /* AppModel.swift */,
 				51CB753527102C35007FC29B /* DefaultsManager.swift */,
+				91AE7B302719EDE200881B30 /* HapticsManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				51CB74EB270EDDD0007FC29B /* HabitTracker_UIApp.swift in Sources */,
 				51CB750527101788007FC29B /* FoundationExtensions.swift in Sources */,
 				51CB753627102C35007FC29B /* DefaultsManager.swift in Sources */,
+				91AE7B312719EDE300881B30 /* HapticsManager.swift in Sources */,
 				51CB753827102C8C007FC29B /* User.swift in Sources */,
 				51CB7507271017A1007FC29B /* ColorExtensions.swift in Sources */,
 				51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */,
