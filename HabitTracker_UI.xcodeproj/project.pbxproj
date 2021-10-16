@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B34340271A774600B1DFCF /* OnboardingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B3433F271A774600B1DFCF /* OnboardingButton.swift */; };
 		51CB74EB270EDDD0007FC29B /* HabitTracker_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB74EA270EDDD0007FC29B /* HabitTracker_UIApp.swift */; };
 		51CB74ED270EDDD0007FC29B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB74EC270EDDD0007FC29B /* MainView.swift */; };
 		51CB74EF270EDDD2007FC29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CB74EE270EDDD2007FC29B /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14B3433F271A774600B1DFCF /* OnboardingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButton.swift; sourceTree = "<group>"; };
 		51CB74E7270EDDD0007FC29B /* HabitTracker_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CB74EA270EDDD0007FC29B /* HabitTracker_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracker_UIApp.swift; sourceTree = "<group>"; };
 		51CB74EC270EDDD0007FC29B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				C7E0A6532719E7AA0097351D /* CustomImageView.swift */,
+				14B3433F271A774600B1DFCF /* OnboardingButton.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			files = (
 				51CB750927101820007FC29B /* Constants.swift in Sources */,
 				C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */,
+				14B34340271A774600B1DFCF /* OnboardingButton.swift in Sources */,
 				51CB750B27101864007FC29B /* Colors.swift in Sources */,
 				51CB750D27101882007FC29B /* FontManager.swift in Sources */,
 				51CB7532271027E0007FC29B /* AppModel.swift in Sources */,
