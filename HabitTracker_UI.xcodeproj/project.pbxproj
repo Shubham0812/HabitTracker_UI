@@ -36,6 +36,7 @@
 		51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753927102CF6007FC29B /* OnboardingView.swift */; };
 		C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6532719E7AA0097351D /* CustomImageView.swift */; };
 		C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6552719E9030097351D /* ColorPalette.swift */; };
+		F75E5619271B03D100D9FCE2 /* OnBoardingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E5618271B03D100D9FCE2 /* OnBoardingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		51CB753927102CF6007FC29B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C7E0A6532719E7AA0097351D /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		C7E0A6552719E9030097351D /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		F75E5618271B03D100D9FCE2 /* OnBoardingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				51CB74F92710169A007FC29B /* Controllers */,
 				51CB74FB271016A8007FC29B /* Models */,
 				51CB7501271016FA007FC29B /* Services */,
+				F75E561A271B0EBD00D9FCE2 /* Styles */,
 				51CB74FA271016A5007FC29B /* Views */,
 			);
 			path = Code;
@@ -256,6 +259,14 @@
 			path = "Support Views";
 			sourceTree = "<group>";
 		};
+		F75E561A271B0EBD00D9FCE2 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				F75E5618271B03D100D9FCE2 /* OnBoardingButton.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,6 +363,7 @@
 				C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */,
 				51CB753827102C8C007FC29B /* User.swift in Sources */,
 				51CB7507271017A1007FC29B /* ColorExtensions.swift in Sources */,
+				F75E5619271B03D100D9FCE2 /* OnBoardingButton.swift in Sources */,
 				51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

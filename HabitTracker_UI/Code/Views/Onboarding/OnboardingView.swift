@@ -15,7 +15,10 @@ struct OnboardingView: View {
     // MARK:- views
     var body: some View {
         ZStack {
-            
+            Button("", action: {})
+                .buttonStyle(OnBoardingButtonStyle(max: 3))
+                .frame(width: 90,
+                       height: 90)
         }
     }
 }
