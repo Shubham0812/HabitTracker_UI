@@ -19,9 +19,7 @@ struct HabitTracker_UIApp: App {
     // MARK:- views
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                MainView()
-            }
+			MainView()
         }
 		.onChange(of: scenePhase) { _ in
 			persistenceController.save()
