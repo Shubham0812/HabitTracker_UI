@@ -12,22 +12,17 @@ struct StepperView: View {
     @StateObject var stepperViewModel: StepperViewModel
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
-            ForEach(1..<stepperViewModel.currentNode) { i in
-                CircleView(circleViewModel: CircleViewModel(nodeNum: i, isComplete: true))
-                RectangleView(rectangleViewModel: RectangleViewModel(isComplete: true))
-                
+            ForEach(1..<stepperViewModel.totalNodes) { i in
+                CircleView(circleViewModel: CircleViewModel(nodeNum: i, isComplete: stepperViewModel.isNodeComplete(index: i)))
+                RectangleView(rectangleViewModel: RectangleViewModel(isComplete: stepperViewModel.isNodeComplete(index: i)))
             }
-            ForEach(stepperViewModel.currentNode..<stepperViewModel.totalNodes) { i in
-                CircleView(circleViewModel: CircleViewModel(nodeNum: i, isComplete: false))
-                RectangleView(rectangleViewModel: RectangleViewModel(isComplete: false))
-            }
-            CircleView(circleViewModel: CircleViewModel(nodeNum: stepperViewModel.totalNodes, isComplete: stepperViewModel.isLastNodeComplete))
+            CircleView(circleViewModel: CircleViewModel(nodeNum: stepperViewModel.totalNodes, isComplete: stepperViewModel.isNodeComplete(index: stepperViewModel.totalNodes)))
         }
     }
 }
 
 struct StepperView_Previews: PreviewProvider {
     static var previews: some View {
-        StepperView(stepperViewModel: StepperViewModel(totalNodes: 6, currentNode: 6))
+        StepperView(stepperViewModel: StepperViewModel(totalNodes: 7, currentNode: 3))
     }
 }

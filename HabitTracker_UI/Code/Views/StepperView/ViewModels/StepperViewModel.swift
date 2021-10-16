@@ -11,8 +11,17 @@ class StepperViewModel: ObservableObject {
     @Published var totalNodes: Int
     @Published var currentNode: Int
     
-    var isLastNodeComplete: Bool {
+    private var isLastNodeComplete: Bool {
         return currentNode == totalNodes
+    }
+    
+    func isNodeComplete(index: Int) -> Bool {
+        if index < currentNode {
+            return true
+        } else if index < totalNodes {
+            return false
+        }
+        return isLastNodeComplete
     }
     
     init(totalNodes: Int,
