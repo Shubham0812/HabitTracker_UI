@@ -39,6 +39,7 @@
 		79CD602E271ACCC800BF9B5F /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD602D271ACCC800BF9B5F /* HabitsView.swift */; };
 		79CD6030271ACCD600BF9B5F /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD602F271ACCD600BF9B5F /* AnalyticsView.swift */; };
 		79CD6032271ACD8D00BF9B5F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD6031271ACD8D00BF9B5F /* BackgroundView.swift */; };
+		79CD6036271AD6CE00BF9B5F /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD6035271AD6CE00BF9B5F /* LoaderView.swift */; };
 		C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6532719E7AA0097351D /* CustomImageView.swift */; };
 		C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6552719E9030097351D /* ColorPalette.swift */; };
 /* End PBXBuildFile section */
@@ -78,6 +79,7 @@
 		79CD602D271ACCC800BF9B5F /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
 		79CD602F271ACCD600BF9B5F /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		79CD6031271ACD8D00BF9B5F /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		79CD6035271AD6CE00BF9B5F /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		C7E0A6532719E7AA0097351D /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		C7E0A6552719E9030097351D /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -275,6 +277,7 @@
 			children = (
 				C7E0A6532719E7AA0097351D /* CustomImageView.swift */,
 				79CD6031271ACD8D00BF9B5F /* BackgroundView.swift */,
+				79CD6035271AD6CE00BF9B5F /* LoaderView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				51CB750B27101864007FC29B /* Colors.swift in Sources */,
 				79AB68CF271AC66500393A46 /* Persistence.swift in Sources */,
 				51CB750D27101882007FC29B /* FontManager.swift in Sources */,
+				79CD6036271AD6CE00BF9B5F /* LoaderView.swift in Sources */,
 				51CB7532271027E0007FC29B /* AppModel.swift in Sources */,
 				51CB74ED270EDDD0007FC29B /* MainView.swift in Sources */,
 				79CD6030271ACCD600BF9B5F /* AnalyticsView.swift in Sources */,
