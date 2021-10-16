@@ -33,7 +33,7 @@ struct PersistenceController {
 	let container: NSPersistentContainer
 
 	init(inMemory: Bool = false) {
-		container = NSPersistentContainer(name: "WhatsAppMe")
+		container = NSPersistentContainer(name: "HabitTracker")
 		if inMemory {
 			container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
 		}
