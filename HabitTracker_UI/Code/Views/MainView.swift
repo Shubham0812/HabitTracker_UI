@@ -11,13 +11,17 @@ struct MainView: View {
     
     // MARK:- views
     var body: some View {
-        ZStack {
-            Color.background
-                .edgesIgnoringSafeArea(.all)
-            Text("Hello, world!")
-                .font(TypefaceTwo.medium.font(size: 24))
-                .padding()
-        }
+		TabView {
+			HabitsView()
+				.tabItem {
+					Label("Habits", systemImage: "checklist")
+				}
+			
+			AnalyticsView()
+				.tabItem {
+					Label("Analytics", systemImage: "chart.pie")
+				}
+		}
     }
 }
 
