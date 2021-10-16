@@ -34,6 +34,12 @@
 		51CB753627102C35007FC29B /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753527102C35007FC29B /* DefaultsManager.swift */; };
 		51CB753827102C8C007FC29B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753727102C8C007FC29B /* User.swift */; };
 		51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753927102CF6007FC29B /* OnboardingView.swift */; };
+		79AB68CF271AC66500393A46 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB68CE271AC66500393A46 /* Persistence.swift */; };
+		79AB68D3271AC74A00393A46 /* HabitTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79AB68D1271AC74A00393A46 /* HabitTracker.xcdatamodeld */; };
+		79CD602E271ACCC800BF9B5F /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD602D271ACCC800BF9B5F /* HabitsView.swift */; };
+		79CD6030271ACCD600BF9B5F /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD602F271ACCD600BF9B5F /* AnalyticsView.swift */; };
+		79CD6032271ACD8D00BF9B5F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD6031271ACD8D00BF9B5F /* BackgroundView.swift */; };
+		79CD6038271ADA6300BF9B5F /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD6037271ADA6300BF9B5F /* OnboardingPage.swift */; };
 		C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6532719E7AA0097351D /* CustomImageView.swift */; };
 		C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6552719E9030097351D /* ColorPalette.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +74,12 @@
 		51CB753527102C35007FC29B /* DefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
 		51CB753727102C8C007FC29B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		51CB753927102CF6007FC29B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		79AB68CE271AC66500393A46 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		79AB68D2271AC74A00393A46 /* HabitTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HabitTracker.xcdatamodel; sourceTree = "<group>"; };
+		79CD602D271ACCC800BF9B5F /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		79CD602F271ACCD600BF9B5F /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		79CD6031271ACD8D00BF9B5F /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		79CD6037271ADA6300BF9B5F /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
 		C7E0A6532719E7AA0097351D /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		C7E0A6552719E9030097351D /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +118,7 @@
 				51CB74F827101697007FC29B /* Code */,
 				51CB750327101723007FC29B /* Utils */,
 				51CB74FD271016BB007FC29B /* Resources */,
+				79AB68D1271AC74A00393A46 /* HabitTracker.xcdatamodeld */,
 			);
 			path = HabitTracker_UI;
 			sourceTree = "<group>";
@@ -141,8 +154,10 @@
 		51CB74FA271016A5007FC29B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				51CB74EC270EDDD0007FC29B /* MainView.swift */,
 				51CB74FE271016CE007FC29B /* Onboarding */,
 				51CB74FF271016D5007FC29B /* Main */,
+				79CD602C271ACC7D00BF9B5F /* Analytics */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +193,7 @@
 		51CB74FE271016CE007FC29B /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				79CD6037271ADA6300BF9B5F /* OnboardingPage.swift */,
 				51CB753927102CF6007FC29B /* OnboardingView.swift */,
 			);
 			path = Onboarding;
@@ -186,7 +202,7 @@
 		51CB74FF271016D5007FC29B /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				51CB74EC270EDDD0007FC29B /* MainView.swift */,
+				79CD602D271ACCC800BF9B5F /* HabitsView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -196,6 +212,7 @@
 			children = (
 				51CB7531271027E0007FC29B /* AppModel.swift */,
 				51CB753527102C35007FC29B /* DefaultsManager.swift */,
+				79AB68CE271AC66500393A46 /* Persistence.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -248,10 +265,19 @@
 			path = Raleway;
 			sourceTree = "<group>";
 		};
+		79CD602C271ACC7D00BF9B5F /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				79CD602F271ACCD600BF9B5F /* AnalyticsView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
 		C7E0A6522719E78A0097351D /* Support Views */ = {
 			isa = PBXGroup;
 			children = (
 				C7E0A6532719E7AA0097351D /* CustomImageView.swift */,
+				79CD6031271ACD8D00BF9B5F /* BackgroundView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -340,12 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CD6032271ACD8D00BF9B5F /* BackgroundView.swift in Sources */,
 				51CB750927101820007FC29B /* Constants.swift in Sources */,
+				79CD6038271ADA6300BF9B5F /* OnboardingPage.swift in Sources */,
+				79CD602E271ACCC800BF9B5F /* HabitsView.swift in Sources */,
 				C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */,
 				51CB750B27101864007FC29B /* Colors.swift in Sources */,
+				79AB68CF271AC66500393A46 /* Persistence.swift in Sources */,
 				51CB750D27101882007FC29B /* FontManager.swift in Sources */,
 				51CB7532271027E0007FC29B /* AppModel.swift in Sources */,
 				51CB74ED270EDDD0007FC29B /* MainView.swift in Sources */,
+				79CD6030271ACCD600BF9B5F /* AnalyticsView.swift in Sources */,
 				51CB74EB270EDDD0007FC29B /* HabitTracker_UIApp.swift in Sources */,
 				51CB750527101788007FC29B /* FoundationExtensions.swift in Sources */,
 				51CB753627102C35007FC29B /* DefaultsManager.swift in Sources */,
@@ -353,6 +384,7 @@
 				51CB753827102C8C007FC29B /* User.swift in Sources */,
 				51CB7507271017A1007FC29B /* ColorExtensions.swift in Sources */,
 				51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */,
+				79AB68D3271AC74A00393A46 /* HabitTracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +591,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79AB68D1271AC74A00393A46 /* HabitTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79AB68D2271AC74A00393A46 /* HabitTracker.xcdatamodel */,
+			);
+			currentVersion = 79AB68D2271AC74A00393A46 /* HabitTracker.xcdatamodel */;
+			path = HabitTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 51CB74DF270EDDD0007FC29B /* Project object */;
 }
