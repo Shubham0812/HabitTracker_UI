@@ -8,7 +8,7 @@
 import SwiftUI
 
 // Mark:- Standard Spacings for iOS Devices
-public enum Spacing: Int {
+public enum Spacing: CGFloat {
     case low = 4
     case medium = 8
     case standard = 16
