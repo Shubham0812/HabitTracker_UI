@@ -28,6 +28,21 @@ enum ColorPalette {
             return Color(backgroundUIColor)
         }
     }
+	
+	var uiColor: UIColor {
+		switch self {
+			case .primary:
+			return primaryUIColor
+			case .secondary:
+			return secondaryUIColor
+			case .accent:
+			return accentUIColor
+			case .warning:
+			return warningUIColor
+			case .background:
+			return backgroundUIColor
+		}
+	}
 
     private var primaryUIColor: UIColor {
         UIColor {

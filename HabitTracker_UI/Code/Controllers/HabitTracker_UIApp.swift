@@ -32,6 +32,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         /// add anything needed for launch options here
+		
+		//Uncomment to reset onboarding
+//		DefaultsManager.shared.isOnboardingComplete = false
         return true
     }
 }
