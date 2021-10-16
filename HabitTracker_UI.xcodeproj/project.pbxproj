@@ -39,6 +39,7 @@
 		79CD602E271ACCC800BF9B5F /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD602D271ACCC800BF9B5F /* HabitsView.swift */; };
 		79CD6030271ACCD600BF9B5F /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD602F271ACCD600BF9B5F /* AnalyticsView.swift */; };
 		79CD6032271ACD8D00BF9B5F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD6031271ACD8D00BF9B5F /* BackgroundView.swift */; };
+		79CD6034271AD2DD00BF9B5F /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD6033271AD2DD00BF9B5F /* VisualEffectBlur.swift */; };
 		C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6532719E7AA0097351D /* CustomImageView.swift */; };
 		C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6552719E9030097351D /* ColorPalette.swift */; };
 /* End PBXBuildFile section */
@@ -78,6 +79,7 @@
 		79CD602D271ACCC800BF9B5F /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
 		79CD602F271ACCD600BF9B5F /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		79CD6031271ACD8D00BF9B5F /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		79CD6033271AD2DD00BF9B5F /* VisualEffectBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		C7E0A6532719E7AA0097351D /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		C7E0A6552719E9030097351D /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,6 +232,7 @@
 				51CB750A27101864007FC29B /* Colors.swift */,
 				51CB750C27101882007FC29B /* FontManager.swift */,
 				C7E0A6552719E9030097351D /* ColorPalette.swift */,
+				79CD6033271AD2DD00BF9B5F /* VisualEffectBlur.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				51CB750927101820007FC29B /* Constants.swift in Sources */,
 				79CD602E271ACCC800BF9B5F /* HabitsView.swift in Sources */,
 				C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */,
+				79CD6034271AD2DD00BF9B5F /* VisualEffectBlur.swift in Sources */,
 				51CB750B27101864007FC29B /* Colors.swift in Sources */,
 				79AB68CF271AC66500393A46 /* Persistence.swift in Sources */,
 				51CB750D27101882007FC29B /* FontManager.swift in Sources */,
