@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct MainView: View {
-    
-    // MARK:- views
+
+    // MARK: - views
     var body: some View {
         ZStack {
             Color.background

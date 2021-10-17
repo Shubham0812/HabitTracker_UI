@@ -17,22 +17,21 @@ extension Double {
         return value
     }
     func clean(places: Int) -> String {
-        return self.truncatingRemainder(dividingBy: 1) == 0 ? String(format: "%.0f", self) : String(format: "%.\(places)f", self)
+        return self.truncatingRemainder(dividingBy: 1) == 0 ?
+        String(format: "%.0f", self) : String(format: "%.\(places)f", self)
     }
 }
 
-
 extension Int {
     func appendZeros() -> String {
-        if (self < 10) {
+        if self < 10 {
             return "0\(self)"
         } else {
             return "\(self)"
         }
     }
-    
+
     func degreeToRadians() -> CGFloat {
         return  (CGFloat(self) * .pi) / 180
     }
 }
-
