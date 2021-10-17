@@ -16,9 +16,11 @@ struct HabitTracker_UIApp: App {
     // MARK:- views
     var body: some Scene {
         WindowGroup {
-            ZStack {
-                MainView()
-            }
+//            ZStack {
+//                MainView()
+//            }
+            
+            OnboardingView()
         }
     }
 }
