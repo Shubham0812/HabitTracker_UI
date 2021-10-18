@@ -14,8 +14,7 @@ enum TypefaceOne {
     case semiboldItalic
     case bold
     case boldItalic
-    
-    
+
     func font(size: CGFloat) -> Font {
         switch self {
         case .regular:
@@ -43,7 +42,7 @@ enum TypefaceTwo {
     case semiboldItalic
     case bold
     case boldItalic
-    
+
     func font(size: CGFloat) -> Font {
         switch self {
         case .light:
