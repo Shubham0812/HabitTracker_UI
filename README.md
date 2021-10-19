@@ -5,7 +5,7 @@
 
 The aim of this app is so that users can track their habits and goals. This project is open source and allows all skill levels to contribute to Hacktoberfest - it also means you can earn some Swag (from stickers to t-shirts). The project is built using [Swift](https://swift.org/documentation/#the-swift-programming-language) and uses SwiftUI. 
 
-> Consider leaving a ⭐ if you like the repository.
+> Consider leaving a ⭐ if you like the repository.
 
 
 
@@ -13,7 +13,9 @@ The aim of this app is so that users can track their habits and goals. This proj
 * Anyone of all skill levels can contribute to this repo
 * Please ensure that you have signed up at [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 * Please check all issues that are labelled as `Hacktoberfest` 
-* Some issues are labelled as `good-first-issue` these are great for beginners to get involved
+* Some issues are labeled as `good-first-issue` these are great for beginners to get involved
+
+Before working on an issue please **leave a comment** and you will be assigned 
 
 
 
@@ -41,7 +43,7 @@ The aim of this app is so that users can track their habits and goals. This proj
 * [Architecture](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/Architecture.md)
 
 ## Contributing 🤖
-To start contributing, check out [CONTRIBUTING.md](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/contributing.md). Everyone is welcome to contribute to this project, if you’re new to programming you might want to check out issues labelled as `UI-Improvements` and `good-first-issue`. Before you assist with the development, please set up the project on your local machine, run it, and go through the application.
+To start contributing, check out [contributing.md](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/contributing.md). Everyone is welcome to contribute to this project, if you’re new to programming you might want to check out issues labelled as `UI-Improvements` and `good-first-issue`. Before you assist with the development, please set up the project on your local machine, run it, and go through the application.
 
 
 Please read the [Architecture.md](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/Architecture.md) to understand the flow and the strucuring of the app.
@@ -52,7 +54,7 @@ Please read the [Architecture.md](https://github.com/Shubham0812/HabitTracker_UI
 * [Shubham Kr. Singh](https://github.com/Shubham0812)
 * [Ben Clarke](https://github.com/clarkeben)
 
-
+✨ A special thanks to all [contributors](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/CONTRIBUTORS.md).
 
 ## License
 This project is licensed under [Apache License 2.0](https://github.com/Shubham0812/HabitTracker_UI/blob/main/LICENSE).
