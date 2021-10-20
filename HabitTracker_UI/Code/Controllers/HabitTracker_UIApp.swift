@@ -8,12 +8,12 @@
 import SwiftUI
 
 @main
-struct HabitTracker_UIApp: App {
-    
-    // MARK:- variables
+struct HabitTrackerUIApp: App {
+
+    // MARK: - variables
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
-    // MARK:- views
+
+    // MARK: - views
     var body: some Scene {
         WindowGroup {
             ZStack {
@@ -23,11 +23,11 @@ struct HabitTracker_UIApp: App {
     }
 }
 
-
 class AppDelegate: NSObject, UIApplicationDelegate {
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        /// add anything needed for launch options here
+
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil)
+    -> Bool {
         return true
     }
 }

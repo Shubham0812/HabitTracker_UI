@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct DefaultsManager {
-    
+
     /// enum to hold keys for user defaults
     enum DefaultManagerKeys: String {
-        case username = "username"
+        case username
     }
-    
-    // MARK:- functions
+
+    // MARK: - functions
 
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B34340271A774600B1DFCF /* OnboardingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B3433F271A774600B1DFCF /* OnboardingButton.swift */; };
 		51CB74EB270EDDD0007FC29B /* HabitTracker_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB74EA270EDDD0007FC29B /* HabitTracker_UIApp.swift */; };
 		51CB74ED270EDDD0007FC29B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB74EC270EDDD0007FC29B /* MainView.swift */; };
 		51CB74EF270EDDD2007FC29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CB74EE270EDDD2007FC29B /* Assets.xcassets */; };
@@ -34,12 +35,13 @@
 		51CB753627102C35007FC29B /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753527102C35007FC29B /* DefaultsManager.swift */; };
 		51CB753827102C8C007FC29B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753727102C8C007FC29B /* User.swift */; };
 		51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753927102CF6007FC29B /* OnboardingView.swift */; };
-		91A95A642719FA79005CC048 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A95A632719FA79005CC048 /* HapticsManager.swift */; };
+		54D79997271B5D810039E2DC /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D79996271B5D810039E2DC /* StepperView.swift */; };
 		C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6532719E7AA0097351D /* CustomImageView.swift */; };
 		C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6552719E9030097351D /* ColorPalette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14B3433F271A774600B1DFCF /* OnboardingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButton.swift; sourceTree = "<group>"; };
 		51CB74E7270EDDD0007FC29B /* HabitTracker_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CB74EA270EDDD0007FC29B /* HabitTracker_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracker_UIApp.swift; sourceTree = "<group>"; };
 		51CB74EC270EDDD0007FC29B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -69,7 +71,7 @@
 		51CB753527102C35007FC29B /* DefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
 		51CB753727102C8C007FC29B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		51CB753927102CF6007FC29B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		91A95A632719FA79005CC048 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		54D79996271B5D810039E2DC /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		C7E0A6532719E7AA0097351D /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		C7E0A6552719E9030097351D /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -255,6 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				C7E0A6532719E7AA0097351D /* CustomImageView.swift */,
+				54D79996271B5D810039E2DC /* StepperView.swift */,
+				14B3433F271A774600B1DFCF /* OnboardingButton.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -269,6 +273,7 @@
 				51CB74E3270EDDD0007FC29B /* Sources */,
 				51CB74E4270EDDD0007FC29B /* Frameworks */,
 				51CB74E5270EDDD0007FC29B /* Resources */,
+				7E122793271CA18600E6D990 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -338,14 +343,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E122793271CA18600E6D990 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51CB74E3270EDDD0007FC29B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				51CB750927101820007FC29B /* Constants.swift in Sources */,
+				54D79997271B5D810039E2DC /* StepperView.swift in Sources */,
 				C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */,
-				91A95A642719FA79005CC048 /* HapticsManager.swift in Sources */,
+				14B34340271A774600B1DFCF /* OnboardingButton.swift in Sources */,
 				51CB750B27101864007FC29B /* Colors.swift in Sources */,
 				51CB750D27101882007FC29B /* FontManager.swift in Sources */,
 				51CB7532271027E0007FC29B /* AppModel.swift in Sources */,

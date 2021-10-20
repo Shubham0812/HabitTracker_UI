@@ -8,15 +8,14 @@
 import SwiftUI
 
 class AppModel: ObservableObject {
-    
-    // MARK:- variables
-    
-    
-    // MARK:- inits
+
+    // MARK: - variables
+
+    // MARK: - inits
     init() {
-        
+
     }
-    
-    // MARK:- functions
-    
+
+    // MARK: - functions
+
 }

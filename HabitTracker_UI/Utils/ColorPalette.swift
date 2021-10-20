@@ -7,7 +7,6 @@
 import SwiftUI
 import UIKit
 
-
 enum ColorPalette {
     case primary
     case secondary
@@ -16,26 +15,24 @@ enum ColorPalette {
     case background
     var color: Color {
         switch self {
-            case .primary:
+        case .primary:
             return Color(primaryUIColor)
-            case .secondary:
+        case .secondary:
             return Color(secondaryUIColor)
-            case .accent:
+        case .accent:
             return Color(accentUIColor)
-            case .warning:
+        case .warning:
             return Color(warningUIColor)
-            case .background:
+        case .background:
             return Color(backgroundUIColor)
         }
     }
 
     private var primaryUIColor: UIColor {
-        UIColor {
-            traits in
+        UIColor {traits in
             if traits.userInterfaceStyle == .light {
                 return UIColor(hex: "#6237FF")
-            }
-            else if traits.userInterfaceStyle == .dark {
+            } else if traits.userInterfaceStyle == .dark {
                 return UIColor(hex: "#6971D3")
             }
             return UIColor(hex: "#6237FF")
@@ -43,12 +40,10 @@ enum ColorPalette {
     }
 
     private var secondaryUIColor: UIColor {
-        UIColor {
-            traits in
+        UIColor {traits in
             if traits.userInterfaceStyle == .light {
                 return UIColor(hex: "#F86C28")
-            }
-            else if traits.userInterfaceStyle == .dark {
+            } else if traits.userInterfaceStyle == .dark {
                 return UIColor(hex: "#FFBA8F")
             }
             return UIColor(hex: "#F86C28")
@@ -56,12 +51,10 @@ enum ColorPalette {
     }
 
     private var accentUIColor: UIColor {
-        UIColor {
-            traits in
+        UIColor {traits in
             if traits.userInterfaceStyle == .light {
                 return UIColor(hex: "#1FB9FC")
-            }
-            else if traits.userInterfaceStyle == .dark {
+            } else if traits.userInterfaceStyle == .dark {
                 return UIColor(hex: "#50C7F3")
             }
             return UIColor(hex: "#1FB9FC")
@@ -69,12 +62,10 @@ enum ColorPalette {
     }
 
     private var warningUIColor: UIColor {
-        UIColor {
-            traits in
+        UIColor {traits in
             if traits.userInterfaceStyle == .light {
                 return UIColor(hex: "#F7456D")
-            }
-            else if traits.userInterfaceStyle == .dark {
+            } else if traits.userInterfaceStyle == .dark {
                 return UIColor(hex: "#D79AB8")
             }
             return UIColor(hex: "#F7456D")
@@ -82,12 +73,10 @@ enum ColorPalette {
     }
 
     private var backgroundUIColor: UIColor {
-        UIColor {
-            traits in
+        UIColor {traits in
             if traits.userInterfaceStyle == .light {
                 return UIColor(hex: "#ffffff")
-            }
-            else if traits.userInterfaceStyle == .dark {
+            } else if traits.userInterfaceStyle == .dark {
                 return UIColor(hex: "#000000")
             }
             return UIColor(hex: "#ffffff")
