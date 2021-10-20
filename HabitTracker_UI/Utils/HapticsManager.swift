@@ -2,10 +2,9 @@
 //  HapticsManager.swift
 //  HabitTracker_UI
 //
-//  Created by Prabaljit Walia on 15/10/21.
+//  Created by Prabaljit Walia on 20/10/21.
 //
 
-import Foundation
 import UIKit
 
 class HapticsManager{
