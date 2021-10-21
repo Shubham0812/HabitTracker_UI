@@ -38,6 +38,10 @@
 		54D79997271B5D810039E2DC /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D79996271B5D810039E2DC /* StepperView.swift */; };
 		C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6532719E7AA0097351D /* CustomImageView.swift */; };
 		C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6552719E9030097351D /* ColorPalette.swift */; };
+		C7E0A65B271AEBAA0097351D /* CompletedStepperItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A65A271AEBAA0097351D /* CompletedStepperItemView.swift */; };
+		C7E0A65D271AEBBA0097351D /* IncompletedStepperItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A65C271AEBBA0097351D /* IncompletedStepperItemView.swift */; };
+		C7E0A65F271AEE580097351D /* ProgressStepperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A65E271AEE580097351D /* ProgressStepperModel.swift */; };
+		C7E0A661271AEF070097351D /* ProgressStepperVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A660271AEF070097351D /* ProgressStepperVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +78,10 @@
 		54D79996271B5D810039E2DC /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		C7E0A6532719E7AA0097351D /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		C7E0A6552719E9030097351D /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		C7E0A65A271AEBAA0097351D /* CompletedStepperItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedStepperItemView.swift; sourceTree = "<group>"; };
+		C7E0A65C271AEBBA0097351D /* IncompletedStepperItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncompletedStepperItemView.swift; sourceTree = "<group>"; };
+		C7E0A65E271AEE580097351D /* ProgressStepperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStepperModel.swift; sourceTree = "<group>"; };
+		C7E0A660271AEF070097351D /* ProgressStepperVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStepperVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +153,7 @@
 		51CB74FA271016A5007FC29B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C7E0A657271AEB3C0097351D /* Progress Stepper */,
 				51CB74FE271016CE007FC29B /* Onboarding */,
 				51CB74FF271016D5007FC29B /* Main */,
 			);
@@ -262,6 +271,33 @@
 			path = "Support Views";
 			sourceTree = "<group>";
 		};
+		C7E0A657271AEB3C0097351D /* Progress Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				C7E0A659271AEB7B0097351D /* Support Views */,
+				C7E0A658271AEB5C0097351D /* Model */,
+				C7E0A660271AEF070097351D /* ProgressStepperVIew.swift */,
+			);
+			path = "Progress Stepper";
+			sourceTree = "<group>";
+		};
+		C7E0A658271AEB5C0097351D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7E0A65E271AEE580097351D /* ProgressStepperModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7E0A659271AEB7B0097351D /* Support Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7E0A65A271AEBAA0097351D /* CompletedStepperItemView.swift */,
+				C7E0A65C271AEBBA0097351D /* IncompletedStepperItemView.swift */,
+			);
+			path = "Support Views";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -373,14 +409,18 @@
 				14B34340271A774600B1DFCF /* OnboardingButton.swift in Sources */,
 				51CB750B27101864007FC29B /* Colors.swift in Sources */,
 				51CB750D27101882007FC29B /* FontManager.swift in Sources */,
+				C7E0A661271AEF070097351D /* ProgressStepperVIew.swift in Sources */,
 				51CB7532271027E0007FC29B /* AppModel.swift in Sources */,
 				51CB74ED270EDDD0007FC29B /* MainView.swift in Sources */,
 				51CB74EB270EDDD0007FC29B /* HabitTracker_UIApp.swift in Sources */,
 				51CB750527101788007FC29B /* FoundationExtensions.swift in Sources */,
 				51CB753627102C35007FC29B /* DefaultsManager.swift in Sources */,
+				C7E0A65B271AEBAA0097351D /* CompletedStepperItemView.swift in Sources */,
 				C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */,
 				51CB753827102C8C007FC29B /* User.swift in Sources */,
+				C7E0A65D271AEBBA0097351D /* IncompletedStepperItemView.swift in Sources */,
 				51CB7507271017A1007FC29B /* ColorExtensions.swift in Sources */,
+				C7E0A65F271AEE580097351D /* ProgressStepperModel.swift in Sources */,
 				51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
