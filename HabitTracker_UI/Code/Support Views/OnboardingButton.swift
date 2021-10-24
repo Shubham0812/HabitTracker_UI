@@ -9,6 +9,8 @@ import SwiftUI
 
 struct OnboardingButton: View {
 
+    public var action: () -> Void
+    
     // State to manage tapStatus
     @State private var isTapped = false
 
@@ -74,6 +76,8 @@ struct OnboardingButton: View {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                     self.isTapped = false
                 }
+                
+                action()
             }
 
         }
@@ -83,6 +87,8 @@ struct OnboardingButton: View {
 
 struct OnboardingButton_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingButton()
+        OnboardingButton(action: {
+            print("Button Tapped")
+        })
     }
 }
