@@ -35,6 +35,7 @@
 		51CB753627102C35007FC29B /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753527102C35007FC29B /* DefaultsManager.swift */; };
 		51CB753827102C8C007FC29B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753727102C8C007FC29B /* User.swift */; };
 		51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753927102CF6007FC29B /* OnboardingView.swift */; };
+		547CCC022725E95B00BF832C /* Spacings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CCC012725E95B00BF832C /* Spacings.swift */; };
 		54D79997271B5D810039E2DC /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D79996271B5D810039E2DC /* StepperView.swift */; };
 		C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6532719E7AA0097351D /* CustomImageView.swift */; };
 		C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6552719E9030097351D /* ColorPalette.swift */; };
@@ -71,6 +72,7 @@
 		51CB753527102C35007FC29B /* DefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
 		51CB753727102C8C007FC29B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		51CB753927102CF6007FC29B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		547CCC012725E95B00BF832C /* Spacings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacings.swift; sourceTree = "<group>"; };
 		54D79996271B5D810039E2DC /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		C7E0A6532719E7AA0097351D /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		C7E0A6552719E9030097351D /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 		51CB750327101723007FC29B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				547CCC012725E95B00BF832C /* Spacings.swift */,
 				51CB750827101820007FC29B /* Constants.swift */,
 				51CB750A27101864007FC29B /* Colors.swift */,
 				51CB750C27101882007FC29B /* FontManager.swift */,
@@ -380,6 +383,7 @@
 				51CB753627102C35007FC29B /* DefaultsManager.swift in Sources */,
 				C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */,
 				51CB753827102C8C007FC29B /* User.swift in Sources */,
+				547CCC022725E95B00BF832C /* Spacings.swift in Sources */,
 				51CB7507271017A1007FC29B /* ColorExtensions.swift in Sources */,
 				51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */,
 			);
