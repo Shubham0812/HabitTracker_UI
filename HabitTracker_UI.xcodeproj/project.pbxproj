@@ -36,6 +36,7 @@
 		51CB753827102C8C007FC29B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753727102C8C007FC29B /* User.swift */; };
 		51CB753A27102CF6007FC29B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB753927102CF6007FC29B /* OnboardingView.swift */; };
 		54D79997271B5D810039E2DC /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D79996271B5D810039E2DC /* StepperView.swift */; };
+		793C2BAE2727E56000B10BC2 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C2BAD2727E56000B10BC2 /* VisualEffectBlur.swift */; };
 		91E506AC27207D0100A43AFC /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E506AB27207D0100A43AFC /* HapticsManager.swift */; };
 		C7E0A6542719E7AA0097351D /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6532719E7AA0097351D /* CustomImageView.swift */; };
 		C7E0A6562719E9030097351D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0A6552719E9030097351D /* ColorPalette.swift */; };
@@ -73,6 +74,7 @@
 		51CB753727102C8C007FC29B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		51CB753927102CF6007FC29B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		54D79996271B5D810039E2DC /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		793C2BAD2727E56000B10BC2 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		91E506AB27207D0100A43AFC /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		C7E0A6532719E7AA0097351D /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		C7E0A6552719E9030097351D /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 		51CB750327101723007FC29B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				793C2BAD2727E56000B10BC2 /* VisualEffectBlur.swift */,
 				51CB750827101820007FC29B /* Constants.swift */,
 				51CB750A27101864007FC29B /* Colors.swift */,
 				51CB750C27101882007FC29B /* FontManager.swift */,
@@ -376,6 +379,7 @@
 				14B34340271A774600B1DFCF /* OnboardingButton.swift in Sources */,
 				51CB750B27101864007FC29B /* Colors.swift in Sources */,
 				51CB750D27101882007FC29B /* FontManager.swift in Sources */,
+				793C2BAE2727E56000B10BC2 /* VisualEffectBlur.swift in Sources */,
 				91E506AC27207D0100A43AFC /* HapticsManager.swift in Sources */,
 				51CB7532271027E0007FC29B /* AppModel.swift in Sources */,
 				51CB74ED270EDDD0007FC29B /* MainView.swift in Sources */,
