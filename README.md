@@ -43,10 +43,10 @@ Before working on an issue please **leave a comment** and you will be assigned
 * [Architecture](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/Architecture.md)
 
 ## Contributing 🤖
-To start contributing, check out [contributing.md](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/contributing.md). Everyone is welcome to contribute to this project, if you’re new to programming you might want to check out issues labelled as `UI-Improvements` and `good-first-issue`. Before you assist with the development, please set up the project on your local machine, run it, and go through the application.
+To start contributing, check out [contributing.md](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/contributing.md). Everyone is welcome to contribute to this project, if you’re new to programming you might want to check out issues labeled as `UI-Improvements` and `good-first-issue`. Before you assist with the development, please set up the project on your local machine, run it, and go through the application.
 
 
-Please read the [Architecture.md](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/Architecture.md) to understand the flow and the strucuring of the app.
+Please read the [Architecture.md](https://github.com/Shubham0812/HabitTracker_UI/blob/main/docs/Architecture.md) to understand the flow and the structuring of the app.
 
 
 
